@@ -103,8 +103,7 @@ export const LotesList = () => {
                     <td className="px-6 py-4">{batch.waste_type}</td>
                     <td className="px-6 py-4">{batch.quantity_kg} kg</td>
                     <td className="px-6 py-4">
-                      <span className={inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
-                         + ''}>
+                      <span className={inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium }>
                         {batch.status}
                       </span>
                     </td>
